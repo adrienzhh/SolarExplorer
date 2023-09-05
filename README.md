@@ -12,5 +12,6 @@ P: perspective switch <br>
 R: reset view <br>
 G: Generate monster <br>
 
-![Alt Text](pics/intro.png){:height="500px" width="500px"}
-![Alt Text](pics/game.png){:height="500px" width="500px"}
+## Demo Pictures
+![](pics/intro.png | width=300)
+![](pics/game.png | width=300)
