@@ -1,5 +1,5 @@
 # SolarExplorer
-A spacecraft flight game that allow you to explore solar system. This is the final project for 24780 Engineering Computation at CMU
+A spacecraft flight game that allow you to explore solar system. Right now, please use Xcode on MacOS for built. This is the final project for 24780 Engineering Computation at CMU
 
 ## Control Command
 Arrows key: control roll/pitch angles <br>
