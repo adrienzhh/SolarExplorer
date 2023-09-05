@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACB43E429283E15006AED88 /* yqCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB43E329283E15006AED88 /* yqCube.cpp */; };
+		0ACB43E829284CB5006AED88 /* OpeningScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB43E729284CB5006AED88 /* OpeningScene.cpp */; };
+		0ACB43ED29284CD5006AED88 /* DrawShapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB43EA29284CD5006AED88 /* DrawShapes.cpp */; };
+		0ACB43EE29284CD5006AED88 /* yqFireworks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB43EC29284CD5006AED88 /* yqFireworks.cpp */; };
+		1DE3B0782918D68C00B7FB4A /* yssimplesound_macosx_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0602918D68B00B7FB4A /* yssimplesound_macosx_objc.m */; };
+		1DE3B07A2918D68C00B7FB4A /* fssimplewindowcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0642918D68B00B7FB4A /* fssimplewindowcpp.cpp */; };
+		1DE3B07B2918D68C00B7FB4A /* Camera3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0652918D68C00B7FB4A /* Camera3D.cpp */; };
+		1DE3B07C2918D68C00B7FB4A /* yssimplesound_macosx_cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0682918D68C00B7FB4A /* yssimplesound_macosx_cpp.cpp */; };
+		1DE3B07D2918D68C00B7FB4A /* DrawingUtilNG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0692918D68C00B7FB4A /* DrawingUtilNG.cpp */; };
+		1DE3B07E2918D68C00B7FB4A /* yqSphereTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B06A2918D68C00B7FB4A /* yqSphereTwo.cpp */; };
+		1DE3B07F2918D68C00B7FB4A /* ysglfontdata.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B06B2918D68C00B7FB4A /* ysglfontdata.c */; };
+		1DE3B0802918D68C00B7FB4A /* fssimplewindowobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B06D2918D68C00B7FB4A /* fssimplewindowobjc.m */; };
+		1DE3B0812918D68C00B7FB4A /* yssimplesound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0702918D68C00B7FB4A /* yssimplesound.cpp */; };
+		1DE3B0822918D68C00B7FB4A /* yqSolarSys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0722918D68C00B7FB4A /* yqSolarSys.cpp */; };
+		1DE3B0832918D68C00B7FB4A /* yspng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0732918D68C00B7FB4A /* yspng.cpp */; };
+		1DE3B0842918D68C00B7FB4A /* OrbitingViewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0762918D68C00B7FB4A /* OrbitingViewer.cpp */; };
+		1DE3B0852918D68C00B7FB4A /* GraphicFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3B0772918D68C00B7FB4A /* GraphicFont.cpp */; };
+		4FED9D8E293D648C003BEA53 /* yqLoadModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FED9D8C293D648C003BEA53 /* yqLoadModel.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DE3B0542918D60700B7FB4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0ACB43E229283E15006AED88 /* yqCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yqCube.h; sourceTree = "<group>"; };
+		0ACB43E329283E15006AED88 /* yqCube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yqCube.cpp; sourceTree = "<group>"; };
+		0ACB43E629284CB5006AED88 /* OpeningScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningScene.h; sourceTree = "<group>"; };
+		0ACB43E729284CB5006AED88 /* OpeningScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpeningScene.cpp; sourceTree = "<group>"; };
+		0ACB43E929284CD5006AED88 /* DrawShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawShapes.h; sourceTree = "<group>"; };
+		0ACB43EA29284CD5006AED88 /* DrawShapes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawShapes.cpp; sourceTree = "<group>"; };
+		0ACB43EB29284CD5006AED88 /* yqFireworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yqFireworks.h; sourceTree = "<group>"; };
+		0ACB43EC29284CD5006AED88 /* yqFireworks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yqFireworks.cpp; sourceTree = "<group>"; };
+		1D3886B92926069200F335DC /* txt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = txt; sourceTree = "<group>"; };
+		1D6A8078293FE6D90025B886 /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
+		1DE3B0562918D60700B7FB4A /* solar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = solar; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE3B0602918D68B00B7FB4A /* yssimplesound_macosx_objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yssimplesound_macosx_objc.m; sourceTree = "<group>"; };
+		1DE3B0622918D68B00B7FB4A /* yssimplesound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yssimplesound.h; sourceTree = "<group>"; };
+		1DE3B0632918D68B00B7FB4A /* ysglfontdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ysglfontdata.h; sourceTree = "<group>"; };
+		1DE3B0642918D68B00B7FB4A /* fssimplewindowcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fssimplewindowcpp.cpp; sourceTree = "<group>"; };
+		1DE3B0652918D68C00B7FB4A /* Camera3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera3D.cpp; sourceTree = "<group>"; };
+		1DE3B0662918D68C00B7FB4A /* Camera3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera3D.h; sourceTree = "<group>"; };
+		1DE3B0672918D68C00B7FB4A /* OrbitingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitingViewer.h; sourceTree = "<group>"; };
+		1DE3B0682918D68C00B7FB4A /* yssimplesound_macosx_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yssimplesound_macosx_cpp.cpp; sourceTree = "<group>"; };
+		1DE3B0692918D68C00B7FB4A /* DrawingUtilNG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawingUtilNG.cpp; sourceTree = "<group>"; };
+		1DE3B06A2918D68C00B7FB4A /* yqSphereTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yqSphereTwo.cpp; sourceTree = "<group>"; };
+		1DE3B06B2918D68C00B7FB4A /* ysglfontdata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ysglfontdata.c; sourceTree = "<group>"; };
+		1DE3B06C2918D68C00B7FB4A /* DrawingUtilNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingUtilNG.h; sourceTree = "<group>"; };
+		1DE3B06D2918D68C00B7FB4A /* fssimplewindowobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fssimplewindowobjc.m; sourceTree = "<group>"; };
+		1DE3B06E2918D68C00B7FB4A /* yspng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yspng.h; sourceTree = "<group>"; };
+		1DE3B06F2918D68C00B7FB4A /* yqSphereTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yqSphereTwo.h; sourceTree = "<group>"; };
+		1DE3B0702918D68C00B7FB4A /* yssimplesound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yssimplesound.cpp; sourceTree = "<group>"; };
+		1DE3B0712918D68C00B7FB4A /* GraphicFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicFont.h; sourceTree = "<group>"; };
+		1DE3B0722918D68C00B7FB4A /* yqSolarSys.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yqSolarSys.cpp; sourceTree = "<group>"; };
+		1DE3B0732918D68C00B7FB4A /* yspng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yspng.cpp; sourceTree = "<group>"; };
+		1DE3B0742918D68C00B7FB4A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1DE3B0752918D68C00B7FB4A /* fssimplewindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fssimplewindow.h; sourceTree = "<group>"; };
+		1DE3B0762918D68C00B7FB4A /* OrbitingViewer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrbitingViewer.cpp; sourceTree = "<group>"; };
+		1DE3B0772918D68C00B7FB4A /* GraphicFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicFont.cpp; sourceTree = "<group>"; };
+		1DE3B0862918DB4F00B7FB4A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		4FED9D8C293D648C003BEA53 /* yqLoadModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yqLoadModel.cpp; sourceTree = "<group>"; };
+		4FED9D8D293D648C003BEA53 /* yqLoadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yqLoadModel.h; sourceTree = "<group>"; };
+		4FED9D99293D6541003BEA53 /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
+		4FED9D9A293D656D003BEA53 /* textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = textures; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE3B0532918D60700B7FB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE3B04D2918D60700B7FB4A = {
+			isa = PBXGroup;
+			children = (
+				1DE3B0582918D60700B7FB4A /* solar */,
+				1DE3B0572918D60700B7FB4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DE3B0572918D60700B7FB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE3B0562918D60700B7FB4A /* solar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DE3B0582918D60700B7FB4A /* solar */ = {
+			isa = PBXGroup;
+			children = (
+				1D6A8078293FE6D90025B886 /* sound */,
+				0ACB43EA29284CD5006AED88 /* DrawShapes.cpp */,
+				0ACB43E929284CD5006AED88 /* DrawShapes.h */,
+				0ACB43EC29284CD5006AED88 /* yqFireworks.cpp */,
+				0ACB43EB29284CD5006AED88 /* yqFireworks.h */,
+				0ACB43E729284CB5006AED88 /* OpeningScene.cpp */,
+				0ACB43E629284CB5006AED88 /* OpeningScene.h */,
+				0ACB43E329283E15006AED88 /* yqCube.cpp */,
+				0ACB43E229283E15006AED88 /* yqCube.h */,
+				4FED9D9A293D656D003BEA53 /* textures */,
+				4FED9D99293D6541003BEA53 /* model */,
+				1D3886B92926069200F335DC /* txt */,
+				1DE3B0862918DB4F00B7FB4A /* images */,
+				1DE3B0652918D68C00B7FB4A /* Camera3D.cpp */,
+				1DE3B0662918D68C00B7FB4A /* Camera3D.h */,
+				1DE3B0692918D68C00B7FB4A /* DrawingUtilNG.cpp */,
+				1DE3B06C2918D68C00B7FB4A /* DrawingUtilNG.h */,
+				1DE3B0752918D68C00B7FB4A /* fssimplewindow.h */,
+				1DE3B0642918D68B00B7FB4A /* fssimplewindowcpp.cpp */,
+				1DE3B06D2918D68C00B7FB4A /* fssimplewindowobjc.m */,
+				1DE3B0772918D68C00B7FB4A /* GraphicFont.cpp */,
+				1DE3B0712918D68C00B7FB4A /* GraphicFont.h */,
+				1DE3B0762918D68C00B7FB4A /* OrbitingViewer.cpp */,
+				1DE3B0672918D68C00B7FB4A /* OrbitingViewer.h */,
+				1DE3B0742918D68C00B7FB4A /* README.md */,
+				1DE3B0722918D68C00B7FB4A /* yqSolarSys.cpp */,
+				1DE3B06A2918D68C00B7FB4A /* yqSphereTwo.cpp */,
+				1DE3B06F2918D68C00B7FB4A /* yqSphereTwo.h */,
+				1DE3B06B2918D68C00B7FB4A /* ysglfontdata.c */,
+				4FED9D8C293D648C003BEA53 /* yqLoadModel.cpp */,
+				4FED9D8D293D648C003BEA53 /* yqLoadModel.h */,
+				1DE3B0632918D68B00B7FB4A /* ysglfontdata.h */,
+				1DE3B0732918D68C00B7FB4A /* yspng.cpp */,
+				1DE3B06E2918D68C00B7FB4A /* yspng.h */,
+				1DE3B0682918D68C00B7FB4A /* yssimplesound_macosx_cpp.cpp */,
+				1DE3B0602918D68B00B7FB4A /* yssimplesound_macosx_objc.m */,
+				1DE3B0702918D68C00B7FB4A /* yssimplesound.cpp */,
+				1DE3B0622918D68B00B7FB4A /* yssimplesound.h */,
+			);
+			path = solar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DE3B0552918D60700B7FB4A /* solar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE3B05D2918D60700B7FB4A /* Build configuration list for PBXNativeTarget "solar" */;
+			buildPhases = (
+				1DE3B0522918D60700B7FB4A /* Sources */,
+				1DE3B0532918D60700B7FB4A /* Frameworks */,
+				1DE3B0542918D60700B7FB4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = solar;
+			productName = solar;
+			productReference = 1DE3B0562918D60700B7FB4A /* solar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DE3B04E2918D60700B7FB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1DE3B0552918D60700B7FB4A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1DE3B0512918D60700B7FB4A /* Build configuration list for PBXProject "solar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DE3B04D2918D60700B7FB4A;
+			productRefGroup = 1DE3B0572918D60700B7FB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DE3B0552918D60700B7FB4A /* solar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE3B0522918D60700B7FB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE3B0802918D68C00B7FB4A /* fssimplewindowobjc.m in Sources */,
+				1DE3B0842918D68C00B7FB4A /* OrbitingViewer.cpp in Sources */,
+				1DE3B0822918D68C00B7FB4A /* yqSolarSys.cpp in Sources */,
+				4FED9D8E293D648C003BEA53 /* yqLoadModel.cpp in Sources */,
+				1DE3B0812918D68C00B7FB4A /* yssimplesound.cpp in Sources */,
+				0ACB43E429283E15006AED88 /* yqCube.cpp in Sources */,
+				1DE3B07C2918D68C00B7FB4A /* yssimplesound_macosx_cpp.cpp in Sources */,
+				1DE3B0832918D68C00B7FB4A /* yspng.cpp in Sources */,
+				1DE3B07F2918D68C00B7FB4A /* ysglfontdata.c in Sources */,
+				0ACB43E829284CB5006AED88 /* OpeningScene.cpp in Sources */,
+				1DE3B07A2918D68C00B7FB4A /* fssimplewindowcpp.cpp in Sources */,
+				1DE3B07D2918D68C00B7FB4A /* DrawingUtilNG.cpp in Sources */,
+				1DE3B07E2918D68C00B7FB4A /* yqSphereTwo.cpp in Sources */,
+				1DE3B0852918D68C00B7FB4A /* GraphicFont.cpp in Sources */,
+				0ACB43EE29284CD5006AED88 /* yqFireworks.cpp in Sources */,
+				0ACB43ED29284CD5006AED88 /* DrawShapes.cpp in Sources */,
+				1DE3B07B2918D68C00B7FB4A /* Camera3D.cpp in Sources */,
+				1DE3B0782918D68C00B7FB4A /* yssimplesound_macosx_objc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DE3B05B2918D60700B7FB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DE3B05C2918D60700B7FB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1DE3B05E2918D60700B7FB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DE3B05F2918D60700B7FB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE3B0512918D60700B7FB4A /* Build configuration list for PBXProject "solar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE3B05B2918D60700B7FB4A /* Debug */,
+				1DE3B05C2918D60700B7FB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE3B05D2918D60700B7FB4A /* Build configuration list for PBXNativeTarget "solar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE3B05E2918D60700B7FB4A /* Debug */,
+				1DE3B05F2918D60700B7FB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DE3B04E2918D60700B7FB4A /* Project object */;
+}
