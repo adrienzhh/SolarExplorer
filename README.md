@@ -13,5 +13,8 @@ R: reset view <br>
 G: Generate monster <br>
 
 ## Demo Pictures
+<img src="pics/intro.png"  width="300" height="300">
+<img src="pics/game.png"  width="300" height="300">
+
 ![](pics/intro.png | width=300)
 ![](pics/game.png | width=300)
